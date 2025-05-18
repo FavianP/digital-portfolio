@@ -21,7 +21,7 @@ export const Project = () => {
   </p>
   <div className="flex flex-wrap gap-2 mb-4">
    {["Html", "TailWindCSS" , "Javascript"].map ((tech, key) => (
-       <span index={index} 
+       <span key={key} 
        className="bg-blue-500/20 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/40 hover:shadow-[0_2px_8px_rgba(89,160,246,0.1)] transition-all"
        >
           {tech}  
@@ -29,7 +29,7 @@ export const Project = () => {
    ))}
   </div>
   <div className="flex justify-between items-center">
-    <a href="https://fpthepig.github.io/FBLA-Tailwind-Project/" ></a>
+    <a href="https://fpthepig.github.io/FBLA-Tailwind-Project/" > View My Project </a>
   </div>
  </div>
     </div>
