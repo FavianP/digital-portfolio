@@ -32,6 +32,29 @@ export const Project = () => {
     <a href="https://fpthepig.github.io/FBLA-Tailwind-Project/" > View My Project </a>
   </div>
  </div>
+
+ <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-red-500/50 hover:shadow-[0_2px_8px_rgba(59,130,246,0.5)] transition">
+  <h3 className="text-xl font-bold mb-2 "> Mecazon-Team-Client</h3>
+  <p className="text-grey-400 mb-4">
+    this is a group project that i did with 4 other teammates. all of us had different roles that contributed through the build of this part 
+    of the project, from this we were the ones to make a search bar that when you type something vaild that is in the groceries.json it show    
+    to you and also this part can also take your applied email and password that you implement and save it for you to log in. they were other 
+    teams that was cotributing through the whole entire project but in different parts.
+  
+  </p>
+  <div className="flex flex-wrap gap-2 mb-4">
+   {["Html", "Json" , "Javascript"].map ((tech, key) => (
+       <span key={key} 
+       className="bg-red-500/20 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-250/40 hover:shadow-[0_2px_8px_rgba(89,130,150,0.1)] transition-all"
+       > 
+          {tech}  
+       </span> 
+   ))}
+  </div>
+  <div className="flex justify-between items-center">
+    <a href="https://github.com/WestMecCoding/teamB-dev-MECAZON-team-client" > View My Project </a>
+  </div>
+ </div>
     </div>
  </div>
 

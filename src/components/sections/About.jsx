@@ -1,3 +1,5 @@
+import screenshot from '../../assets/Screenshot.png';
+
 export const About = () => {
   const frontendSkills = ["React", "HTML&CSS", "TailwindCSS"];
   const backendSkills = ["MongoDB", "Node.js", "JavaScript"];
@@ -9,11 +11,16 @@ export const About = () => {
           About me
         </h2>
 
-        <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all mb-6">
-          <p className="text-gray-300">
-            The Fragrance of Memory {/* or your intended phrase */}
-          </p>
-        </div>
+       <div className="glass rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all mb-6 group">
+  <figure className="flex flex-col items-center">
+    <img 
+      src={screenshot}
+      alt="Project screenshot" 
+      className="rounded-lg w-full max-w-md mx-auto transition-opacity group-hover:opacity-90"
+    />
+    <figcaption className="sr-only">Project demonstration</figcaption>
+  </figure>
+</div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Frontend */}
