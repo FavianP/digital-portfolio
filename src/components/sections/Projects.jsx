@@ -21,8 +21,9 @@ export const Project = () => {
   <p className="text-grey-400 mb-4">
     this is a project that two other of my coding partners from west-mec and i
     made this game for fbla project and after that overtime we had put some
-    upgrades into it by impleting tailwindcss and movement on the game. this
-    game also has .
+    upgrades into it by implementing tailwindcss and movement on the game. this
+    game also has a card selector with mulitple choice of elements/ melees this 
+    is contained by a model. 
 
   </p>
   <div className="flex flex-wrap gap-2 mb-4">
@@ -44,7 +45,7 @@ export const Project = () => {
   <p className="text-grey-400 mb-4">
     this is a group project that i did with 4 other teammates. all of us had different roles that contributed through the build of this part
     of the project, from this we were the ones to make a search bar that when you type something vaild that is in the groceries.json it show
-    to you and also this part can also take your applied email and password that you implement and save it for you to log in. they were other
+    to you and also this part can also take your applied email and password that you implement  and save it for you to log in. they were other
     teams that was cotributing through the whole entire project but in different parts.
 
   </p>
