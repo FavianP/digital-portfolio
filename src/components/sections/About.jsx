@@ -1,4 +1,4 @@
-import screenshot from '../../assets/Screenshot.png';
+import screenshot from '../../assets/Screenshot1.png';
 
 export const About = () => {
   const frontendSkills = ["React", "HTML&CSS", "TailwindCSS"];
